@@ -1,0 +1,95 @@
+/*
+Name: Marwa Elatrache
+Date: 10/31/2018
+Section:  Ak
+This is the index.css page ,It is used to give the site a consistent look and feel.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+body {
+	text-align:center;
+  background-color: black;
+  color: white;
+}
+
+ul {
+	display:flex;
+	list-style-type: none;
+	justify-content : space-around;
+	padding-bottom: 20px;
+}
+
+main {
+	width : 80%;
+	margin: auto;
+}
+
+a , li a {
+	text-decoration:none;
+	padding:15px;
+}
+
+a , #search {
+	color:#bba9b4;
+	font-size: 20px;
+}
+
+h1 {
+	color: #a3859b;
+	font-size: 50px;
+	font-family: 'Great Vibes', cursive;
+}
+
+#search {
+	border: none;
+  background-color: black;
+}
+
+#images {
+	margin: auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	margin-left: 150px;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	padding-right:2px;
+}
+
+#dictionary {
+	text-align:center;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+p {
+	text-align: justify;
+  font-size: 20px;
+}
+
+textarea {
+  align-self: flex-start;
+	font-size:15px;
+	margin-top: 25px;
+	width: 500px;
+}
+
+#btn-search {
+	background-color:#707585;
+	color:white;
+	font-size: 15px;
+
+}
+
+.hidden {
+	display:none;
+  opacity: 0;
+}
+
+.wordSearched{
+  color:#707585;
+}
